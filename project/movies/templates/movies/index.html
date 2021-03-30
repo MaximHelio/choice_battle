@@ -1,0 +1,144 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<h1 class='text-center'>Movie Choice Game</h1>
+  <div id="question">
+    <div class="d-flex">
+      <a href="#"><img src="http://t1.daumcdn.net/movie/c8555d7906ba4559a1290c616e416c4c1576742973513" class="d-block w-50" class="rounded img-fluid" alt="..."></a>
+      <a href="#"><img src="https://lh3.googleusercontent.com/proxy/lIOnnX-T78-Cs7kqjL8ZgcE5vy9Fo35KUBbgAnfHR3iahURX8KfdWi5xv_1OfHqiW1cBf_ofJlkML28NToBsojTB5HjBUayTTvnwD5ZTeSFuVcXfVVYNEp18bHORbLnofoLdLAm_arHAYsJ3LiRqkywaXTVtwxk5FX7LFgCWD2-RRhzyQxcIvs5Ja58l3I-0i9flXMMhiP2FWPZLssUMXCvp0YkuFRFrlpkv3HdH-7So3e534dnvXIaXQuNT-WYe0GupZJfwJLENI8p0knauE75kGa7uh2eycel0Prei0NW57pEYFCWdymn276p4MJyxv1edIDGG75xeTCdxdgc2" class="img-fluid d-block w-50" alt="..."></a>
+    </div>
+    <div class="d-flex">
+      <a href="#}"><img src="http://t1.daumcdn.net/movie/c8555d7906ba4559a1290c616e416c4c1576742973513" class="d-block w-50" class="rounded img-fluid" alt="..."></a>
+      <a href="#"><img src="https://lh3.googleusercontent.com/proxy/lIOnnX-T78-Cs7kqjL8ZgcE5vy9Fo35KUBbgAnfHR3iahURX8KfdWi5xv_1OfHqiW1cBf_ofJlkML28NToBsojTB5HjBUayTTvnwD5ZTeSFuVcXfVVYNEp18bHORbLnofoLdLAm_arHAYsJ3LiRqkywaXTVtwxk5FX7LFgCWD2-RRhzyQxcIvs5Ja58l3I-0i9flXMMhiP2FWPZLssUMXCvp0YkuFRFrlpkv3HdH-7So3e534dnvXIaXQuNT-WYe0GupZJfwJLENI8p0knauE75kGa7uh2eycel0Prei0NW57pEYFCWdymn276p4MJyxv1edIDGG75xeTCdxdgc2" class="img-fluid d-block w-50" alt="..."></a>
+    </div>
+    <div class="d-flex">
+      <a href="#"><img src="http://t1.daumcdn.net/movie/c8555d7906ba4559a1290c616e416c4c1576742973513" class="d-block w-50" class="rounded img-fluid" alt="..."></a>
+      <a href="#"><img src="https://lh3.googleusercontent.com/proxy/lIOnnX-T78-Cs7kqjL8ZgcE5vy9Fo35KUBbgAnfHR3iahURX8KfdWi5xv_1OfHqiW1cBf_ofJlkML28NToBsojTB5HjBUayTTvnwD5ZTeSFuVcXfVVYNEp18bHORbLnofoLdLAm_arHAYsJ3LiRqkywaXTVtwxk5FX7LFgCWD2-RRhzyQxcIvs5Ja58l3I-0i9flXMMhiP2FWPZLssUMXCvp0YkuFRFrlpkv3HdH-7So3e534dnvXIaXQuNT-WYe0GupZJfwJLENI8p0knauE75kGa7uh2eycel0Prei0NW57pEYFCWdymn276p4MJyxv1edIDGG75xeTCdxdgc2" class="img-fluid d-block w-50" alt="..."></a>
+    </div>
+
+    <a href="">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M9.78 12.78a.75.75 0 01-1.06 0L4.47 8.53a.75.75 0 010-1.06l4.25-4.25a.75.75 0 011.06 1.06L6.06 8l3.72 3.72a.75.75 0 010 1.06z"></path></svg>
+      </button>
+    </a>
+
+    <a href="">
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M6.22 3.22a.75.75 0 011.06 0l4.25 4.25a.75.75 0 010 1.06l-4.25 4.25a.75.75 0 01-1.06-1.06L9.94 8 6.22 4.28a.75.75 0 010-1.06z"></path></svg>
+      </button>
+    </a>
+  </div>
+
+{% comment %} <div id="question-wrapper">
+  <div id="question">
+    <h3 class="preface">Would you rather...</h3>
+    <div class="panel-holder" style="width: 2880px;">
+      <div class="panel" style="visibility: visible; opacity: 0;" data-question="908">
+        <div class="or"></div>
+        <div class="options ">
+          <div class="choice-block blue-choice ">
+            <table cellpadding="0" border="none">
+              <tbody>
+                <tr>
+                  <td valign="middle">
+                    <div class="option">
+                      <a href="/vote/908/1" rel="nofollow">First</a>
+                    </div>
+                    <div class="result result-1" style="">
+                      <div class="checkmark"></div>
+                      <div class="percentage">
+                        <span>0</span>%</div>
+                      <div class="total-votes"><span class="count">622,824</span>&nbsp;<span class="word">agree</span></div>
+                      <span class="option-text">Second</span>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="choice-block red-choice ">
+            <table cellpadding="0" border="none">
+              <tbody>
+                <tr>
+                  <td valign="middle">
+                    <div class="option">
+                      <a href="/vote/908/2" rel="nofollow">Use only Papyrus </a>
+                    </div>
+                    <div class="result result-2" style="">
+                      <div class="checkmark"></div>
+                      <div class="percentage"><span>0</span>%</div>
+                    <div class="total-votes"><span class="count">466,076</span>&nbsp;<span class="word">disagree</span></div>
+                      <span class="option-text">Use only Papyrus</span>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="panel" data-question="908">
+          <div class="or"></div>
+            <div class="options ">
+              <div class="choice-block blue-choice ">
+                <table cellpadding="0" border="none">
+                  <tbody>
+                    <tr>
+                      <td valign="middle">
+                        <div class="option">
+                          <a href="/vote/908/1" rel="nofollow">Use only Comic Sans </a>
+                        </div>
+                        <div class="result result-1" style="">
+                          <div class="checkmark"></div>
+                          <div class="percentage"><span>0</span>%</div>
+                          <div class="total-votes"><span class="count">622,824</span>&nbsp;<span class="word">agree</span></div>
+                            <span class="option-text">Use only Comic Sans</span>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="choice-block red-choice ">
+                <table cellpadding="0" border="none">
+                  <tbody>
+                    <tr>
+                      <td valign="middle">
+                        <div class="option">
+                          <a href="/vote/908/2" rel="nofollow">Use only Papyrus </a>
+                        </div>
+                        <div class="result result-2" style="">
+                          <div class="checkmark"></div>
+                          <div class="percentage"><span>0</span>%</div>
+                          <div class="total-votes">
+                            <span class="count">466,076</span>&nbsp;<span class="word">disagree</span></div>
+                          <span class="option-text">Use only Papyrus</span>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<a href="#" id="btn-next-dark" class="forward" style="display: none;"></a>
+<a href="#" id="btn-prev-dark" class="back" style="display: none;"></a>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>  {% endcomment %}
+
+{% endblock content %}

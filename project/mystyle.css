@@ -1,0 +1,13 @@
+.or {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -35px;
+  margin-left: -35px;
+  width: 72px;
+  height: 71px;
+  background-image: url(https://static.either.io/v2/img/yr-common-sprite.gz.png);
+  background-position: -97px -79px;
+  background-repeat: none;
+  z-index: 5;
+}
